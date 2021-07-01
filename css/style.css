@@ -32,17 +32,62 @@ button {
 
 .large-container {
     width: 80%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
+    margin: auto;
+}
+
+.small-container {
+    width: 70%;
+    /* max-width: 1000px; */
     margin: auto;
 }
 
 .offset {
     transform: translate(0, 80px);
 }
+
+.radio-check {
+    vertical-align: middle;
+}
+
+.customer-type {
+    text-align: center;
+    border-bottom: 1px solid #d0d0d3;
+    padding: 1em;
+}
+
+.fa-li {
+   width: 1em;
+   left: -1.5em
+}
+
+.fa-ul {
+    margin-left: 1.5em;
+}
+
+.fa-ul li {
+    margin: 1.5em 0;
+}
+
 /* typo */
 h1 {
     font-size: 4.2em;
     text-align: justify;
+}
+
+h2 {
+    font-size: 2.3em;
+    margin: 2em 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 1.5em 0 1em;
+}
+
+.info-box {
+    margin: 1em 0;
+    font-size: 0.8em;
 }
 
 /* header */
@@ -86,7 +131,6 @@ header li {
 }
 
 /* hero */
-
 .hero {
     background-color: #b4d0e7;
     margin-top: 60px;
@@ -116,4 +160,55 @@ header li {
 .hero .left-col .icon {
     font-size: 2em;
     margin: 20px 0;
+}
+
+/* main */
+main .small-container {
+    margin-top: 140px;
+}
+
+main .duration label {
+    margin-right: 15px;
+}
+
+main .left-col {
+    width: calc((100% - 100px) / 3);
+    border: 1px solid #d0d0d3;
+    margin: 2em 0;
+    height: 1100px;
+}
+
+main .middle-col {
+    margin: 2em 50px;
+}
+
+.col-text-box {
+    margin-bottom: 2em;
+}
+
+.info-box.grey {
+    color: #6a7a87;
+}
+
+.bold-box {
+    font-size: 1em;
+}
+
+.col-text-box button {
+    width: 100%;
+    padding: 0.5em;
+}
+
+.col-text-box a {
+    text-decoration: underline;
+    color: #0061ff;
+}
+
+.col-text-box.hr {
+    width: 20%;
+    border-bottom: 1px solid #6a7a87;
+}
+
+.left-col .large-container .col-text-box:last-child .fa-li {
+    color: #0061ff;
 }
