@@ -25,8 +25,24 @@ button {
     border: none;
     background-color: #0061ff;
     color: #ffffff;
-    padding: 0.2em 10px;
+    padding: 0.2em 1em;
     font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+.large-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.offset {
+    transform: translate(0, 80px);
+}
+/* typo */
+h1 {
+    font-size: 4.2em;
+    text-align: justify;
 }
 
 /* header */
@@ -36,6 +52,8 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: #ffffff;
+    z-index: 10;
 }
 
 .half-col {
@@ -67,3 +85,35 @@ header li {
     line-height: 60px;
 }
 
+/* hero */
+
+.hero {
+    background-color: #b4d0e7;
+    margin-top: 60px;
+}
+
+.hero .large-container {
+    padding: 50px 0 0;
+}
+
+.hero .left-col {
+    width: calc(35% - 40px);
+    margin-right: 40px;
+}
+
+.hero .right-col {
+    width: 65%;
+}
+
+.hero .right-col img {
+    width: 100%;
+}
+
+.hero .left-col button {
+    margin: 20px 0 10px;
+}
+
+.hero .left-col .icon {
+    font-size: 2em;
+    margin: 20px 0;
+}
