@@ -176,14 +176,17 @@ main .duration label {
     margin-right: 15px;
 }
 
-main .vertical-col .left-col {
+.left-col.third {
     width: calc((100% - 100px) / 3);
-    border: 1px solid #d0d0d3;
     margin: 2em 0;
+}
+
+main .vertical-col .left-col {
+    border: 1px solid #d0d0d3;
     min-height: 1100px;
 }
 
-main .vertical-col .middle-col {
+main .left-col.middle-col {
     margin: 2em 50px;
 }
 
@@ -254,4 +257,9 @@ main .vertical-col .info-box.grey {
     background-color: #ffffff;
     border: 1px solid black;
     margin-top: 1em;
+}
+
+/* features section */
+.features img {
+    width: 100%;
 }
