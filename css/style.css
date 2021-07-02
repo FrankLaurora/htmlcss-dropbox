@@ -90,6 +90,11 @@ h3 {
     margin: 1.5em 0 1em;
 }
 
+h4 {
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
 .info-box {
     margin: 1em 0;
     font-size: 1em;
@@ -423,4 +428,34 @@ main .vertical-col .info-box.grey {
     right: 0;
     transform: translate(-50%);
     padding-right: 1em;
+}
+
+/* footer */
+footer, footer li a{
+    background-color: black;
+    color: #ffffff;
+}
+
+footer .top-row {
+    padding: 5em 0;
+}
+
+footer .top-row .left-col {
+    width: 20%;
+}
+
+footer .left-col li {
+    list-style-type: none;
+    margin: 0.5em 0;
+}
+
+footer .large-container .hr {
+    border-bottom: 1px solid #ffffff;
+    width: 10%;
+}
+
+.region {
+    width: 15%;
+    color: #999999;
+    padding: 2em 0;
 }
