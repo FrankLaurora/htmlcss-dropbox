@@ -82,7 +82,7 @@ h1 {
 
 h2 {
     font-size: 2.3em;
-    margin: 1.5em 0;
+    /* margin: 1.5em 0; */
 }
 
 h3 {
@@ -173,6 +173,10 @@ header li {
 }
 
 /* main vertical columns */
+.duration {
+    margin: 3em 0 0;
+}
+
 main .vertical-col .small-container {
     margin-top: 140px;
 }
@@ -196,7 +200,7 @@ main .left-col.middle-col {
 }
 
 main .vertical-col .col-text-box {
-    margin-bottom: 2em;
+    margin: 2em 0;
 }
 
 main .vertical-col .info-box.grey {
@@ -235,7 +239,7 @@ main .vertical-col .info-box.grey {
 
 /* partnership row */
 .partnership {
-    margin-top: 2em;
+    margin: 5em 0;
 }
 
 .partnership .left-col {
@@ -252,7 +256,7 @@ main .vertical-col .info-box.grey {
     text-align: left;
 }
 
-.partnership button {
+.partnership button, .free-trial button {
     color: #000000;
     background-color: #ffffff;
     border: 1px solid black;
@@ -260,11 +264,18 @@ main .vertical-col .info-box.grey {
 }
 
 /* features section */
+.features {
+    margin: 5em 0;
+}
+
 .features img {
     width: 100%;
 }
 
 /* team section */
+.team {
+    margin: 3.5em 0;
+}
 .team-row {
     background-color: #f5f5f5;
     margin-top: 3.5em;
@@ -359,4 +370,57 @@ main .vertical-col .info-box.grey {
 
 #team-8{
     background-color: #ffd830;
+}
+
+/* free trial section */
+
+.free-trial {
+    background-color: #b4d0e7;
+}
+
+.free-trial .small-container {
+    padding: 3.5em 0;
+    margin-bottom: 5em; 
+}
+
+.free-trial .left-col {
+    color: #61082b;
+    width: calc(70% - 50px);
+    margin-right: 50px;
+}
+
+.free-trial .right-col {
+    width: 30%;
+}
+
+.free-trial button {
+    width: 100%;
+}
+
+/* frequently asked questions */
+.faq {
+    margin: 5em auto;
+}
+
+.faq ul {
+    margin: 2.5em 0;
+}
+
+.faq li{
+    position: relative;
+    font-weight: bold;
+    padding: 2em 0;
+    border-top: 1px solid #dcdcde;
+    list-style-type: none;
+}
+
+.faq li:last-child {
+    border-bottom: 1px solid #dcdcde;
+}
+
+.faq .right-list-icon {
+    position: absolute;
+    right: 0;
+    transform: translate(-50%);
+    padding-right: 1em;
 }
