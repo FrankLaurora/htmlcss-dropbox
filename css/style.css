@@ -32,13 +32,13 @@ button {
 
 .large-container {
     width: 80%;
-    /* max-width: 1200px; */
+    max-width: 1200px;
     margin: auto;
 }
 
 .small-container {
     width: 70%;
-    /* max-width: 1000px; */
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -87,7 +87,12 @@ h3 {
 
 .info-box {
     margin: 1em 0;
-    font-size: 0.8em;
+    font-size: 1em;
+}
+
+.bold-box {
+    font-size: 1em;
+    font-weight: bold;
 }
 
 /* header */
@@ -162,8 +167,8 @@ header li {
     margin: 20px 0;
 }
 
-/* main */
-main .small-container {
+/* main vertical columns */
+main .vertical-col .small-container {
     margin-top: 140px;
 }
 
@@ -171,27 +176,23 @@ main .duration label {
     margin-right: 15px;
 }
 
-main .left-col {
+main .vertical-col .left-col {
     width: calc((100% - 100px) / 3);
     border: 1px solid #d0d0d3;
     margin: 2em 0;
-    height: 1100px;
+    min-height: 1100px;
 }
 
-main .middle-col {
+main .vertical-col .middle-col {
     margin: 2em 50px;
 }
 
-.col-text-box {
+main .vertical-col .col-text-box {
     margin-bottom: 2em;
 }
 
-.info-box.grey {
+main .vertical-col .info-box.grey {
     color: #6a7a87;
-}
-
-.bold-box {
-    font-size: 1em;
 }
 
 .col-text-box button {
@@ -211,4 +212,20 @@ main .middle-col {
 
 .left-col .large-container .col-text-box:last-child .fa-li {
     color: #0061ff;
+}
+
+/* main customer row */
+.row {
+    border: 1px solid #d0d0d3;
+}
+
+.row .left-col {
+    width: 70%;
+    padding: 0 0 1em 2em;
+}
+
+.row .right-col {
+    width: 30%;
+    text-align: left;
+    padding-top: 2em;
 }
