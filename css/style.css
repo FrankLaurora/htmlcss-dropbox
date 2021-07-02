@@ -215,17 +215,43 @@ main .vertical-col .info-box.grey {
 }
 
 /* main customer row */
-.row {
+.plan-row {
     border: 1px solid #d0d0d3;
 }
 
-.row .left-col {
+.plan-row .left-col {
     width: 70%;
     padding: 0 0 1em 2em;
 }
 
-.row .right-col {
+.plan-row .right-col {
     width: 30%;
     text-align: left;
     padding-top: 2em;
+}
+
+/* partnership row */
+.partnership {
+    margin-top: 2em;
+}
+
+.partnership .left-col {
+    width: 55%;
+}
+
+.partnership .left-col img {
+    width: 100%;
+}
+
+.partnership .right-col {
+    margin-left: 2em;
+    width: calc(45% - 2em);
+    text-align: left;
+}
+
+.partnership button {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin-top: 1em;
 }
