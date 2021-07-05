@@ -286,9 +286,9 @@ main .vertical-col .info-box.grey {
     margin-top: 3.5em;
 }
 .team-row .left-col, .team-row .right-col {
-    width: 60vh;
+    width: 30vw;
     max-width: 500px;
-    height: 60vh;
+    height: 30vw;
     max-height: 500px;
     background-color: lightblue;
     position: relative;
@@ -297,7 +297,7 @@ main .vertical-col .info-box.grey {
 .team-row .middle-col {
     float: left;
     margin: 0 30px;
-    width: calc(100% - (120vh + 60px));
+    width: calc(100% - (60vw + 60px));
     padding: 2em 0;
 }
 
@@ -316,9 +316,9 @@ main .vertical-col .info-box.grey {
 }
 
 .team-box {
-    width: 30vh;
+    width: 15vw;
     max-width: 250px;
-    height: 30vh;
+    height: 15vw;
     max-height: 250px;
     position: absolute;   
 }
