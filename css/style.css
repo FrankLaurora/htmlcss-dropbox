@@ -208,7 +208,7 @@ main .vertical-col .col-text-box {
     margin: 2em 0;
 }
 
-main .vertical-col .info-box.grey {
+main .vertical-col .info-box.grey, .faq ul li p, .faq ul li p a {
     color: #6a7a87;
 }
 
@@ -290,7 +290,6 @@ main .vertical-col .info-box.grey {
     max-width: 500px;
     height: 30vw;
     max-height: 500px;
-    background-color: lightblue;
     position: relative;
 }
 
@@ -425,6 +424,23 @@ main .vertical-col .info-box.grey {
     list-style-type: none;
 }
 
+.faq ul li p {
+    display: none;
+    font-weight: 400;
+    width: 80%;
+    padding-top: 1em;
+}
+
+.faq ul li p a {
+    text-decoration: underline;
+}
+
+/* for p and a color, see vertical columns section */
+
+.faq li:hover p {
+    display: block;
+}
+
 .faq li:last-child {
     border-bottom: 1px solid #dcdcde;
 }
@@ -434,6 +450,18 @@ main .vertical-col .info-box.grey {
     right: 0;
     transform: translate(-50%);
     padding-right: 1em;
+}
+
+.right-list-icon.hidden {
+    display: none;
+}
+
+.faq li:hover .right-list-icon.hidden {
+    display: inline-block
+}
+
+.faq li:hover .right-list-icon.displayed {
+    display: none;
 }
 
 /* footer */
