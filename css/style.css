@@ -37,13 +37,13 @@ button {
 
 .large-container {
     width: 80%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
 }
 
 .small-container {
     width: 70%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -300,6 +300,7 @@ main .vertical-col .info-box.grey {
     width: calc(100% - (60vw + 60px));
     padding: 2em 0;
     overflow: auto;
+    max-height: 30vw;
 }
 
 .team-row .middle-col img {
