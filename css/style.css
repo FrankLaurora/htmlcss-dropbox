@@ -299,6 +299,7 @@ main .vertical-col .info-box.grey {
     margin: 0 30px;
     width: calc(100% - (60vw + 60px));
     padding: 2em 0;
+    overflow: auto;
 }
 
 .team-row .middle-col img {
@@ -323,8 +324,12 @@ main .vertical-col .info-box.grey {
     position: absolute;   
 }
 
+.team-box:hover {
+    border: 1vw solid #ffffff50;
+}
+
 .team-box img {
-    width: 60%;
+    width: calc((15vw * 60) / 100);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -346,7 +351,6 @@ main .vertical-col .info-box.grey {
 
 #team-1 {
     background-color: #a2d39b;
-    border: 2vh solid #d0e9cd;
 }
 
 #team-2{
@@ -400,6 +404,7 @@ main .vertical-col .info-box.grey {
 
 .free-trial button {
     width: 100%;
+    border: none;
 }
 
 /* frequently asked questions */
