@@ -389,7 +389,7 @@ main .vertical-col .info-box.grey {
 }
 
 .free-trial .small-container {
-    padding: 3.5em 0;
+    padding: 5em 0;
     margin-bottom: 5em; 
 }
 
@@ -448,6 +448,7 @@ footer .top-row {
 
 footer .top-row .left-col {
     width: 20%;
+    padding-left: 5%;
 }
 
 footer .left-col li {
