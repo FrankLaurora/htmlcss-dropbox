@@ -425,7 +425,6 @@ main .vertical-col .info-box.grey, .faq ul li p, .faq ul li p a {
 }
 
 .faq ul li p {
-    display: none;
     font-weight: 400;
     width: 80%;
     padding-top: 1em;
@@ -452,16 +451,12 @@ main .vertical-col .info-box.grey, .faq ul li p, .faq ul li p a {
     padding-right: 1em;
 }
 
-.right-list-icon.hidden {
+.right-list-icon.hidden, .faq ul li p, .faq li:hover .right-list-icon.displayed {
     display: none;
 }
 
 .faq li:hover .right-list-icon.hidden {
     display: inline-block
-}
-
-.faq li:hover .right-list-icon.displayed {
-    display: none;
 }
 
 /* footer */
